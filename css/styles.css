@@ -1529,8 +1529,11 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
 .track-topics .carousel-item {
   font-size: 1.1rem;
   line-height: 1;
+  /* height: 50vh; */
   height: 645px;
-  /* overflow-y: scroll; */ 
+  overflow-y: auto; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
 }
 
 .track-topics .carousel h2 {

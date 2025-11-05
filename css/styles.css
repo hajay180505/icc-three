@@ -1105,6 +1105,51 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
 
 /* keynote speakers end */
 
+
+/* preconference start */
+
+.preconf {
+  color: white;
+  padding: 10px 0 20px;
+}
+
+.preconf h3 {
+  margin: 3em 0 1.5em 0;
+}
+.speakers-flexbox {
+  padding: 40px 0 20px;
+}
+
+.preconf .card {
+  /* background-color: #082465; */
+  /* background: linear-gradient(45deg, #FEC837 0%, #201f5d 80%); */
+  background: linear-gradient( 45deg, rgba(254,200,55,0.95) 0%, rgba(32,31,93,0.95) 80% );
+  width: 300px;
+  height: 370px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom : 0;
+  border-radius: 10px;
+  margin: 3em 20px;
+}
+
+.preconf .card h4 {
+  font-size: 1.1em;
+}
+
+.preconf .card img {
+  width: 150px;
+  border-radius: 50%;
+  margin:  auto auto auto;
+  /* border: 10px solid #082465; */
+}
+
+.preconf .card .subtle {
+  color: rgba(255, 255, 255, 0.726);
+}
+/* pre conference end */
+
+
 /* PROG COMM */
 .chairs span{
   font-size: 1.3rem;

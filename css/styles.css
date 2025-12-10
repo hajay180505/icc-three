@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -47,7 +46,7 @@ body {
   margin: 0 auto;
 }
 .news1 {
-  color:white;
+  color: white;
   width: 100%;
 }
 /* scroll end */
@@ -97,7 +96,7 @@ body {
   font-size: 1.8rem;
 }
 
-.f-10{
+.f-10 {
   font-size: 0.6rem;
   font-weight: 200;
 }
@@ -266,12 +265,11 @@ img {
   .right {
     padding-left: 2rem;
     display: block;
-    float:center;
+    float: center;
     align-content: center;
-    width:100%;
+    width: 100%;
   }
-  .iframe
-  {
+  .iframe {
     display: block;
     align-self: center;
   }
@@ -295,15 +293,13 @@ img {
     margin: 0;
     padding: 0;
   }
-  .right
-  {
-    padding-left:0rem;
+  .right {
+    padding-left: 0rem;
     margin: 0;
   }
-  .iframe
-  {
-    height : 270px;
-    width :270px;
+  .iframe {
+    height: 270px;
+    width: 270px;
   }
 }
 /* FOOTER CSS END */
@@ -315,7 +311,7 @@ img {
 
 /* about conf STARTS */
 
-.care-read-more{
+.care-read-more {
   border: 1px solid;
   color: white;
   padding: 5px 26px;
@@ -325,15 +321,13 @@ img {
 .care-read-more:hover {
   background-color: #082465;
   border-color: #082465;
-  color:white;  
-  
+  color: white;
 }
 .abtCollege-content p {
   text-align: justify;
   color: #e2e2e2;
 }
 .abtConCare {
-
   color: white;
   background: url("../images/blue_care.png");
   background-size: cover;
@@ -356,7 +350,7 @@ img {
   margin: 0;
   padding-right: 5%;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .psgCare {
     border-left: 0;
     border-top: 1px solid white;
@@ -463,7 +457,7 @@ img {
 }
 
 .isbn h2 {
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
   color: #082465;
   font-weight: 600;
 }
@@ -562,8 +556,8 @@ img {
 }
 
 .article-container::-webkit-scrollbar {
-  width: 0px; 
-  background: transparent; 
+  width: 0px;
+  background: transparent;
 }
 
 .news {
@@ -581,8 +575,6 @@ img {
   text-align: center;
 }
 
-
-
 .orgCommittee h1 {
   font-size: 2.2rem;
   color: #082465;
@@ -590,13 +582,12 @@ img {
   padding: 34px;
 }
 
-
 /* advCommittee */
 
 .advCommittee {
   margin: 0 auto;
   background-color: #d9e4f5;
-background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
   /* background: rgb(174,202,214);
   background: -moz-linear-gradient(90deg, rgba(174,202,214,1) 0%, rgba(184,211,254,0.6337885495995272) 100%);
   background: -webkit-linear-gradient(90deg, rgba(174,202,214,1) 0%, rgba(184,211,254,0.6337885495995272) 100%);
@@ -606,7 +597,8 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
   text-align: center;
 }
 
-.advCommittee h3,h5 {
+.advCommittee h3,
+h5 {
   color: #082465;
 }
 
@@ -619,7 +611,7 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
   padding: 20px 20px;
   margin: 25px 25px;
   /* color: #081e65af; */
-  color:white;
+  color: white;
   transition: all 0.3s;
 }
 
@@ -680,7 +672,7 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#774bcc",endColorstr="#0f1ba4",GradientType=1); */
   padding: 20px 20px;
   margin: 25px 25px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   transition: all 0.3s;
 }
 
@@ -738,7 +730,8 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
   text-align: center;
 }
 
-.studCommittee h3,h5 {
+.studCommittee h3,
+h5 {
   color: #f7f7f7;
 }
 
@@ -1084,19 +1077,22 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
   border: none;
   text-align: center;
   padding-top: 10px;
-  padding-bottom : 0;
+  padding-bottom: 0;
   border-radius: 10px;
   margin: 3em 20px;
 }
 
-.talk-title{
-    background-color: #fec913;
-    border-radius: 0 0 10px 10px;
-    padding: 10px;
-    color: #122865;
-    height: 150px;
-    text-align: left;
-    font-size: 15px;
+.talk-title {
+  background-color: #fec913;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  color: #122865;
+  height: 150px;
+  text-align: left;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .speaker .card h4 {
@@ -1106,7 +1102,7 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
 .speaker .card img {
   width: 150px;
   border-radius: 50%;
-  margin:  auto auto auto;
+  margin: auto auto auto;
   /* border: 10px solid #082465; */
 }
 
@@ -1115,7 +1111,6 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
 }
 
 /* keynote speakers end */
-
 
 /* preconference start */
 
@@ -1134,20 +1129,27 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
 .preconf .card {
   /* background-color: #082465; */
   /* background: linear-gradient(45deg, #FEC837 0%, #201f5d 80%); */
-  background: linear-gradient( 45deg, rgba(254,200,55,0.95) 0%, rgba(32,31,93,0.95) 80% );
+  background: linear-gradient(
+    45deg,
+    rgba(254, 200, 55, 0.95) 0%,
+    rgba(32, 31, 93, 0.95) 80%
+  );
   width: 300px;
   /* height: 370px; */
   text-align: center;
   padding-top: 10px;
-  padding-bottom : 0;
+  padding-bottom: 0;
   border-radius: 10px;
   margin: 3em 20px;
 }
 
-.preconf .talk-title{
-   color: #fec913;
-   background-color: #122865;
-   height: 100px;
+.preconf .talk-title {
+  color: #fec913;
+  background-color: #122865;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .preconf .card h4 {
   font-size: 1.1em;
@@ -1156,7 +1158,7 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
 .preconf .card img {
   width: 150px;
   border-radius: 50%;
-  margin:  auto auto auto;
+  margin: auto auto auto;
   /* border: 10px solid #082465; */
 }
 
@@ -1165,49 +1167,44 @@ background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
 }
 /* pre conference end */
 
-
 /* PROG COMM */
-.chairs span{
+.chairs span {
   font-size: 1.3rem;
   font-weight: 600 !important;
 }
 .prog-chairs {
   /* background-color: #f7f7f7; */
   background-color: #d9d9d9;
-background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-
-
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 }
 
 .prog-chairs .card {
-
   max-width: 1200px;
   margin: 2em;
   background-color: transparent;
   border: none;
 }
 
-
 .prog-chairs .card .heading {
   /* background-color: #0cbaba;
 background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
-background: rgb(241, 38, 38);
-background: -moz-linear-gradient(
-  149deg,
-  rgba(241, 38, 38, 1) 0%,
-  rgba(118, 0, 92, 1) 100%
-);
-background: -webkit-linear-gradient(
-  149deg,
-  rgba(241, 38, 38, 1) 0%,
-  rgba(118, 0, 92, 1) 100%
-);
-background: linear-gradient(
-  149deg,
-  rgba(241, 38, 38, 1) 0%,
-  rgba(118, 0, 92, 1) 100%
-);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f12626",endColorstr="#76005c",GradientType=1);
+  background: rgb(241, 38, 38);
+  background: -moz-linear-gradient(
+    149deg,
+    rgba(241, 38, 38, 1) 0%,
+    rgba(118, 0, 92, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    149deg,
+    rgba(241, 38, 38, 1) 0%,
+    rgba(118, 0, 92, 1) 100%
+  );
+  background: linear-gradient(
+    149deg,
+    rgba(241, 38, 38, 1) 0%,
+    rgba(118, 0, 92, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f12626",endColorstr="#76005c",GradientType=1);
   color: white;
   padding: 1em;
   border-radius: 0.25rem;
@@ -1230,21 +1227,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f12626",endCo
   transition: all 0.3s ease-in-out;
 }
 
-.prog-chairs .card .chairs p{
+.prog-chairs .card .chairs p {
   text-align: center;
   width: 250px;
   margin: 10px 5px 20px 5px;
 }
 /* media query for xs screen */
 @media (max-width: 575px) {
-  .prog-chairs .card .chairs p{
+  .prog-chairs .card .chairs p {
     width: 150px;
   }
 }
-.prog-chairs .card .chairs span{
- font-weight: bold;
+.prog-chairs .card .chairs span {
+  font-weight: bold;
 }
-
 
 .prog-chairs .card .chairs:hover {
   transform: translateY(-3px);
@@ -1316,8 +1312,6 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
 .virtual-platform p {
   width: 250px;
 }
-
-
 
 /* Author Guide lines */
 .authorguideline {
@@ -1509,8 +1503,6 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
     font-weight: 300;
   }
 }
-  
-
 
 /* Important Date END */
 
@@ -1545,17 +1537,15 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
 
 .track-links li {
   border-radius: 5px;
-  padding:0;
+  padding: 0;
   margin: 10px 15px 10px 5px;
   transition: background-color 0.1s ease-in;
 }
 
-.track-links li:hover{
+.track-links li:hover {
   background-color: #0b3db3;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.205);
 }
-
-
 
 .track-links a {
   display: block;
@@ -1567,12 +1557,12 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
   color: white;
 }
 
-.track-links a:hover{
+.track-links a:hover {
   text-decoration: none;
   color: white;
 }
 
-.track-links a:focus{
+.track-links a:focus {
   text-decoration: none;
   color: white;
   background-color: #0b3db3;
@@ -1592,8 +1582,8 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
   line-height: 1;
   /* height: 50vh; */
   height: 645px;
-  overflow-y: auto; 
-  scrollbar-width: none; 
+  overflow-y: auto;
+  scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
@@ -1645,22 +1635,21 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
   background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%);
 } */
 
-
 /* media query for screen size less than 490px */
 @media (max-width: 490px) {
   .orgCommittee {
     padding: 30px 0;
   }
-  .name-card{
+  .name-card {
     padding: 20px 10px !important;
   }
-  .advCommittee{
+  .advCommittee {
     padding: 30px 0 !important;
   }
-  .techProgCommittee{
+  .techProgCommittee {
     padding: 30px 0 !important;
   }
-  .studCommittee{
-    padding:30px 10px !important;
+  .studCommittee {
+    padding: 30px 10px !important;
   }
 }

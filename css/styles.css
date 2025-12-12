@@ -1653,3 +1653,377 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #5b0358 74%); */
     padding: 30px 10px !important;
   }
 }
+
+/* SCHEDULE SECTION */
+.schedule-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  padding: 60px 0;
+}
+
+.schedule-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(18, 40, 101, 0.1);
+}
+
+.day-schedule {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.day-schedule:last-child {
+  border-bottom: none;
+}
+
+.day-title {
+  color: #122865;
+  font-size: 1.4em;
+  border-left: 5px solid #fec913;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.schedule-table thead {
+  background: linear-gradient(135deg, #122865 0%, #1a3a8a 100%);
+  color: #fec913;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.schedule-table thead th {
+  padding: 16px 12px;
+  border: none;
+  text-align: left;
+}
+
+.schedule-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-table tbody tr:hover:not(.break-row):not(.special-row) {
+  background-color: #f5f5f5;
+}
+
+.schedule-table tbody td {
+  padding: 16px 12px;
+  vertical-align: middle;
+}
+
+.schedule-table tbody tr:nth-child(even):not(.break-row):not(.special-row) {
+  background-color: #f9f9f9;
+}
+
+.break-row {
+  background-color: #fec913;
+  color: #122865;
+  font-weight: 600;
+}
+
+.special-row {
+  background-color: #e8f0fe;
+  color: #122865;
+  font-weight: 600;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.speaker-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #122865;
+  transition: transform 0.3s ease;
+}
+
+.speaker-img:hover {
+  transform: scale(1.1);
+}
+
+.schedule-table tbody td strong {
+  color: #122865;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.schedule-table tbody td em {
+  color: #1a3a8a;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+  .schedule-container {
+    padding: 20px;
+  }
+
+  .day-title {
+    font-size: 1.1em;
+    padding-left: 10px;
+  }
+
+  .schedule-table {
+    font-size: 0.85rem;
+  }
+
+  .schedule-table thead th {
+    padding: 12px 8px;
+  }
+
+  .schedule-table tbody td {
+    padding: 12px 8px;
+  }
+
+  .speaker-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .schedule-table tbody td strong {
+    font-size: 0.85rem;
+  }
+
+  .schedule-table tbody td em {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .schedule-section {
+    padding: 40px 0;
+  }
+
+  .schedule-container {
+    padding: 15px;
+  }
+
+  .day-schedule {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  .day-title {
+    font-size: 1em;
+    padding-left: 8px;
+    margin-bottom: 15px;
+  }
+
+  .schedule-table {
+    font-size: 0.75rem;
+  }
+
+  .schedule-table thead th {
+    padding: 10px 6px;
+    font-size: 0.75rem;
+  }
+
+  .schedule-table tbody td {
+    padding: 10px 6px;
+  }
+
+  .speaker-info {
+    gap: 5px;
+  }
+
+  .speaker-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .schedule-table tbody td strong {
+    font-size: 0.75rem;
+  }
+
+  .schedule-table tbody td em {
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 576px) {
+  .schedule-container {
+    padding: 10px;
+  }
+
+  .day-title {
+    font-size: 0.9em;
+    padding-left: 5px;
+  }
+
+  .schedule-table {
+    font-size: 0.65rem;
+  }
+
+  .schedule-table thead {
+    display: none;
+  }
+
+  .schedule-table tbody {
+    display: block;
+  }
+
+  .schedule-table tbody tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .schedule-table tbody td {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+
+  .schedule-table tbody td:before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: #122865;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .schedule-table tbody td:last-child {
+    border-bottom: none;
+  }
+
+  .break-row td,
+  .special-row td {
+    display: block;
+    padding: 10px;
+  }
+
+  .break-row td:before,
+  .special-row td:before {
+    content: none;
+  }
+
+  .speaker-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .speaker-info {
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .schedule-table tbody td strong {
+    font-size: 0.75rem;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .schedule-table tbody td em {
+    font-size: 0.7rem;
+    line-height: 1.3;
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+/* SPONSORS SECTION */
+.sponsors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.sponsor-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+.sponsor-slide img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 300px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.sponsor-slide img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+  .sponsors-container {
+    gap: 20px;
+  }
+
+  .sponsor-slide {
+    max-width: 350px;
+  }
+
+  .sponsor-slide img {
+    max-width: 350px;
+    max-height: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsors-container {
+    gap: 15px;
+    padding: 15px 0;
+  }
+
+  .sponsor-slide {
+    max-width: 300px;
+    flex: 0 1 calc(50% - 7.5px);
+  }
+
+  .sponsor-slide img {
+    max-width: 300px;
+    max-height: 225px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sponsors-container {
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .sponsor-slide {
+    max-width: 100%;
+    flex: 0 1 100%;
+  }
+
+  .sponsor-slide img {
+    max-width: 100%;
+    max-height: auto;
+  }
+}
